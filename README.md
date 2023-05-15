@@ -33,7 +33,7 @@ implementation 'io.github.oneuiproject.sesl:preference:1.1.0'
 implementation 'io.github.oneuiproject:icons:1.0.1'
 ```
 
-you need to add following code in `app/build.gradle` under the`dependencies` block.
+you need to add following code below`dependencies` block.
 
 ```gradle
 dependencies {
@@ -129,6 +129,23 @@ setupFragmentList();
 setupFragments();
 setupDrawer();
 ```
+
+### Preferences Widgets
+
+> **Warning**: Make sure you've imported OneUI preferences library.
+
+OneUI provides innovative preference widgets.
+
+```xml
+<dev.oneuiproject.oneui.preference.XXX ... />
+```
+
+| Preference widgets | | |
+| - | - | - |
+| TipsCardPreference      | ColorPickerPreference | LayoutPreference |
+| SwitchBarPreference  | DescriptionPreference| HorizontalRadioPreference |
+
+more..
 
 ### Use OneUI icons
 
