@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <dev.oneuiproject.oneui.preference.TipsCardPreference
+        app:title="This is a sample"
+        app:summary="testing 123"/>
+
+    <PreferenceCategory
+        app:title="EditText">
+
+        <EditTextPreference
+            app:key="pref_setting_1"
+            app:title="setting 1"
+            app:summary="test" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Switch">
+
+        <dev.oneuiproject.oneui.preference.SwitchBarPreference
+            app:key="pref_setting_2" />
+
+        <SwitchPreference
+            app:key="pref_setting_3"
+            app:title="setting 3" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
